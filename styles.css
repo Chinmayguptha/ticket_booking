@@ -1,0 +1,117 @@
+/* Custom Styles for Ticket Booking System */
+
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Event Card Styles */
+.event-card {
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.event-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-card .card-body {
+    padding: 1.25rem;
+}
+
+.event-card .availability {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.event-card .price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Category Icon Styles */
+.category-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.category-icon i {
+    font-size: 1.2rem;
+    color: #0d6efd;
+}
+
+/* Booking Modal Styles */
+#bookingModal .modal-content {
+    border-radius: 10px;
+}
+
+#bookingModal .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Filter Section Styles */
+#categoryFilter, #dateFilter, #searchFilter {
+    margin-bottom: 10px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .event-card {
+        margin-bottom: 15px;
+    }
+    
+    .event-card .card-img-top {
+        height: 150px;
+    }
+    
+    .category-icon {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .category-icon i {
+        font-size: 1rem;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #212529;
+        color: #f8f9fa;
+    }
+    
+    .card {
+        background-color: #343a40;
+        color: #f8f9fa;
+    }
+    
+    .event-card .availability {
+        color: #adb5bd;
+    }
+    
+    .category-icon {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    
+    .category-icon i {
+        color: #fff;
+    }
+} 
