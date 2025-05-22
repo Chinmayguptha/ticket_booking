@@ -52,3 +52,11 @@ A web-based app for booking and managing tickets for events like concerts, movie
 ## License & Contact
 [MIT License]  
 
+![Screenshot 2025-05-22 191524](https://github.com/user-attachments/assets/a046f237-3b64-43b3-84d9-19153e485f44)
+![Screenshot 2025-05-22 191452](https://github.com/user-attachments/assets/9f3686e6-2e4d-4ce4-8a17-eb52571be0d1)
+![Screenshot 2025-05-22 191350](https://github.com/user-attachments/assets/d8370e7e-cc5f-4515-a328-0aa7d0df940a)
+![Screenshot 2025-05-22 191254](https://github.com/user-attachments/assets/ee4e6865-0ea2-4bfd-93fb-7ecb5e42463b)
+
+
+https://github.com/user-attachments/assets/e5c5a9b4-9eb2-4368-aecf-4329a817249b
+
